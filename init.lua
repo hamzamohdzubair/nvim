@@ -1,2 +1,4 @@
-require('hamza.settings')
 require('hamza.plugs')
+require('hamza.mappings')
+require('hamza.settings')
+

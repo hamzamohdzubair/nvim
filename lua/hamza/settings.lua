@@ -19,3 +19,5 @@ o.termguicolors = true
 
 o.fileencoding = 'utf-8'
 o.wrap = false
+
+o.timeoutlen = 500
