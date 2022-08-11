@@ -31,7 +31,20 @@ return require('packer').startup(function()
             require('nvim-surround').setup{}
         end
     }   
-    use('kdheepak/lazygit.nvim')
+    -- use('kdheepak/lazygit.nvim')
+    use{
+        'akinsho/toggleterm.nvim',
+        tag = 'v2.*',
+        config = function()
+            require('toggleterm').setup{
+                size = 15,
+                open_mapping = [[<leader>dd]],
+                insert_mappings = false,
+            }
+        end
+        
+    }
+    require('hamza.plugs.terminals')
     
 
 end)

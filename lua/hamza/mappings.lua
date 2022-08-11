@@ -24,6 +24,12 @@ wk.register{
        w = {'<cmd>up<cr>', 'save'},
        gg = {'<cmd>LazyGit<cr>', 'lazygit'},
        p = {'<cmd>PackerSync<cr>', 'sync packer'},
+       d = {
+           name = "shell",
+           d = {'new'},
+           f = {'gitui'},
+           h = {'htop'},
+       },
        -- [';'] = {'<c-w>', ''},
     }
 }

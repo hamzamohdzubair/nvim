@@ -21,3 +21,4 @@ o.fileencoding = 'utf-8'
 o.wrap = false
 
 o.timeoutlen = 500
+o.hidden = true
