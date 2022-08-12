@@ -31,7 +31,6 @@ return require('packer').startup(function()
             require('nvim-surround').setup{}
         end
     }   
-    -- use('kdheepak/lazygit.nvim')
     use{
         'akinsho/toggleterm.nvim',
         tag = 'v2.*',

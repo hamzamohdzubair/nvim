@@ -22,7 +22,6 @@ wk.register{
     ['<leader>'] = {
        q = {'<cmd>q<cr>', 'quit'},
        w = {'<cmd>up<cr>', 'save'},
-       gg = {'<cmd>LazyGit<cr>', 'lazygit'},
        p = {'<cmd>PackerSync<cr>', 'sync packer'},
        d = {
            name = "shell",
@@ -30,6 +29,7 @@ wk.register{
            f = {'gitui'},
            h = {'htop'},
        },
+       s = {'<cmd>lua vim.fn.system("rm ~/.local/share/nvim/swap/*")<cr>', 'del swp'}
        -- [';'] = {'<c-w>', ''},
     }
 }
