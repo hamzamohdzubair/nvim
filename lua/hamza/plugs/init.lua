@@ -44,6 +44,7 @@ return require('packer').startup(function()
         
     }
     require('hamza.plugs.terminals')
+    use('timonv/vim-cargo')
     
 
 end)
